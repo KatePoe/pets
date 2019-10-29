@@ -1,0 +1,239 @@
+* {
+	font-family: 'Roboto', 
+	sans-serif;
+}
+
+h1,h2,h3{
+	font-family: 'Fira Sans', 
+	sans-serif;
+}
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: medium;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: inside;
+	padding-inline-start: 0;
+}
+
+
+ul li {
+	margin-bottom: 10px;
+}
+
+.link_arrow {
+	position: relative;
+}
+
+.link_arrow:after {
+	content: "\2192";
+	position: absolute;
+	right: -13px;
+	top: 3px;
+	width: 10px;
+	color: #ffec00;
+	line-height: 1
+}
+
+.link_arrow_blue {
+	position: relative;
+	font-weight: 500;
+}
+
+.link_arrow_blue:after {
+	content: "\2192";
+	position: absolute;
+	right: -13px;
+	top: 0px;
+	width: 10px;
+	font-size: 18px;
+	color: #8558be;
+	line-height: 1
+}
+
+
+
+.page {
+	background: #ede9e0;
+}
+
+.wrap {
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.content {
+	width: 944px; 
+	margin:0 auto;
+	padding: 0 40px;
+}
+
+.about .content {
+	background: #510fad;
+	position: relative;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 80px;
+	font-size: 16px;
+	line-height: 1.875;
+	margin-bottom: 100px;
+}
+
+.about .content:before {
+	content: "";
+	display: block;
+	height: 81px;
+	width: 100%;
+	top: -80px;
+	left: 0;
+	background: url(../images/wave_top.png) 0 0 no-repeat;
+	background-size: 100%;
+	position: absolute;
+}
+
+.about .content:after {
+	content: "";
+	display: block;
+	height: 81px;
+	width: 100%;
+	bottom: -80px;
+	left: 0;
+	background: url(../images/wave_bottom.png) 0 0 no-repeat;
+	background-size: 100%;
+	position: absolute;
+}
+
+.about .content a {
+	color: #ffec00;
+}
+
+.breeds .content  {
+	padding-bottom: 100px;
+}
+
+.breeds .content h2 {
+	text-align: center;
+}
+
+.feedback .content  {
+	padding-bottom: 100px;
+}
+
+.feedback .content h2 {
+	text-align: center;
+}
+
+.header__wrapper {
+	display: flex;
+}
+
+.logo {
+	width: 320px; 
+	margin: 10px 0 0 0;
+}
+
+.header_inner {
+	margin: 38px 0 0 0; 
+	font-size: 16px;
+	justify-content: space-between;
+	display: flex;
+}
+
+.header_inner a {
+	text-decoration: none;
+}
+
+.header_inner nav a {
+	margin-right: 10px; 
+	color: #202020
+}
+
+.promo {
+	padding-top: 155px;
+	padding-left: 320px;
+	padding-bottom: 250px;
+}
+
+.promo-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.about_short {
+	width: 360px;
+	margin: 0 auto;
+	padding-bottom: 85px;
+}
+
+.about_short p {
+	color: #b8adc8;
+}
+
+.about_inner {
+	display: flex;
+}
+
+.dog_inner img {
+	box-shadow: 0 0 30px #000;
+}
+
+.list_inner {
+	margin-left: 25px;
+}
+
+.list_inner ul {
+	margin-bottom: 50px;
+}
+
+.breeds_list {
+	display:flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	line-height: 1.875;
+}
+
+.breeds_list section {
+	width: 50%;
+}
+
+.breeds_item_description {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	align-items: flex-start;
+	
+}
+
+.breeds_item_description img {
+	width: 140px;
+	height: auto;
+}
+
+.breeds_item_text {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.breeds_item_text p {
+	margin-top: 0;
+	color: #737274;
+	font-size: 16px;
+}
+
+.breeds_item_text .link_arrow_blue {
+	text-transform: uppercase;
+	font-size: 14px;
+}
