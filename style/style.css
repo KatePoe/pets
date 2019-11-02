@@ -18,6 +18,7 @@ h2 {
 
 a {
 	text-decoration: none;
+	color: #510fad;
 }
 
 ul {
@@ -131,6 +132,7 @@ ul li {
 
 .feedback .content h2 {
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 .header__wrapper {
@@ -162,6 +164,14 @@ ul li {
 	padding-top: 155px;
 	padding-left: 320px;
 	padding-bottom: 250px;
+}
+
+.promo p {
+	font-size: 14px;
+	color: #727173;
+	text-transform: uppercase;
+	border-left: 1px solid #510fad;
+	padding-left: 10px; 
 }
 
 .promo-img {
@@ -237,3 +247,263 @@ ul li {
 	text-transform: uppercase;
 	font-size: 14px;
 }
+
+.feedback_container {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.feedback_left {
+	width: 50%;
+}
+
+.feedback_left:before {
+	content: "\201c";
+	display: block;
+	color: #e1ddd5;
+	font-size: 250px;
+	line-height: 1;
+	font-family: "Fira Sans";
+	height: 100px;
+}
+
+.feedback_left .date {
+	font-size: 16px;
+	font-style: italic;
+	color: #737274;
+}
+
+.feedback_left h3 {
+	font-size: 24px;
+	margin: 12px 0;
+}
+
+.feedback_right {
+	width: 50%;
+	margin-top: 70px;
+}
+
+.feedback_left p {
+	line-height: 1.875;
+	color: #202020;
+	padding-right: 20px;
+	font-size: 16px;
+}
+
+.feedback_right img {
+	box-shadow: 0 0 30px #999;
+}
+
+.feedback_right p {
+	color: #737274;
+	font-style: italic;
+	font-size: 16px;
+}
+
+.blog {
+	background: url(../images/slide5_background.png) 0 0 repeat;
+	padding-top: 110px;
+	padding-bottom: 100px;
+	margin-bottom: 115px;
+}
+.blog .content {
+	display: flex;
+	width: 100%;
+	flex-direction: row; 
+	box-sizing: border-box;
+	align-items: flex-start;
+}
+
+.blog_about {
+	width: 47%;
+	padding-right: 3%;
+}
+
+.blog_about h2 {
+	font-size: 36px;
+	color: #fff;
+}
+
+.blog_about p {
+	font-size: 16px;
+	color: #b8adc8;
+	line-height: 1.875;
+}
+
+.blog_about a {
+	margin-right: 9px;
+}
+
+.blog_posts {
+	display: flex;
+	width: 50%;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.blog_posts section {
+	width: 48%;
+	margin-right: 2%;
+	background: #fff;
+	box-shadow: 0 0 30px #000;
+	border-radius: 20px;
+	padding-bottom: 15px;
+}
+
+.blog_posts section:nth-child(even) {
+	margin-right: 0;
+	margin-left: 2%;
+}	
+
+.blog_posts section img {
+	width: 100%;
+}
+
+.blog_posts section p {
+	font-size: 16px;
+	line-height: 1.875;
+	color: #202020;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.blog_posts section .link_arrow_blue {
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 16px;
+	line-height: 1.875;
+}
+
+.contacts_container {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.contacts_container section {
+	width: 50%;
+	padding-bottom: 20px;
+}
+
+.contacts_container h5 {
+	padding: 0 0 10px 0;
+	margin: 0;
+	color: #737274;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.contacts_container p {
+	padding: 0 0 10px 0;
+	margin: 0;
+	color: #202020;
+	font-size: 16px;
+	line-height: 1.875;
+}
+
+.contacts_container a {
+	color: #202020;
+}
+
+.footer_navigation {
+	margin-top: 100px;
+	border-top: 1px solid #d5d1ca;
+	padding-top: 30px;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	padding-bottom: 90px;
+}
+
+.footer_menu {
+	width: 80%;
+}
+
+.footer_menu a {
+	margin-right: 30px;
+	color: #737274;
+	font-size: 16px;
+}
+
+.footer_social {
+	width: 20%;
+	text-align: right;
+}
+
+.footer_social a {
+	margin-left: 9px;
+}
+
+.vk_icon_blue {
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+	background: url(../images/icons_social.png) 0 -50px no-repeat;
+}
+
+.vk_icon_blue:hover {
+	background-position: 0 -100px;
+}
+
+.fb_icon_blue {
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+	background: url(../images/icons_social.png) -50px -50px no-repeat;
+}
+
+.fb_icon_blue:hover {
+	background-position: -50px -100px;
+}
+
+.insta_icon_blue {
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+	background: url(../images/icons_social.png) -100px -50px no-repeat;
+}
+
+.insta_icon_blue:hover {
+	background-position: -100px -100px;
+}
+
+.vk_icon_yellow {
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+	background: url(../images/icons_social.png) 0 0 no-repeat;
+}
+
+.vk_icon_yellow:hover {
+	background-position: 0 -150px;
+}
+
+.fb_icon_yellow {
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+	background: url(../images/icons_social.png) -50px 0 no-repeat;
+}
+
+.fb_icon_yellow:hover {
+	background-position: -50px -150px;
+}
+
+.insta_icon_yellow {
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+	background: url(../images/icons_social.png) -100px 0 no-repeat;
+}
+
+.insta_icon_yellow:hover {
+	background-position: -100px -150px;
+}
+
+
+
+
